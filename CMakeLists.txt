@@ -15,6 +15,8 @@ set(ROS_DEPENDS
 set(EXTERNAL_DEPENDS
   Qt5Widgets
   Qt5PrintSupport
+  Qt5Multimedia
+  Qt5MultimediaWidgets
   #OpenCV
   )
 
@@ -22,6 +24,8 @@ set(EXTERNAL_DEPENDS_LIB
   Qt5::Widgets
   Qt5::PrintSupport
   Qt5::Core
+  Qt5::Multimedia
+  Qt5::MultimediaWidgets
   #${OpenCV_LIBS}
   )
 
